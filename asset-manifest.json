@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uk-restaurent/static/css/main.95a1a47a.css",
+    "main.js": "/uk-restaurent/static/js/main.97ea6c83.js",
+    "static/media/download.webp": "/uk-restaurent/static/media/download.7ba2f9d843aceb413c1b.webp",
+    "static/media/coffee.jpg": "/uk-restaurent/static/media/coffee.d2216949fac4082aa77a.jpg",
+    "index.html": "/uk-restaurent/index.html",
+    "main.95a1a47a.css.map": "/uk-restaurent/static/css/main.95a1a47a.css.map",
+    "main.97ea6c83.js.map": "/uk-restaurent/static/js/main.97ea6c83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95a1a47a.css",
+    "static/js/main.97ea6c83.js"
+  ]
+}
