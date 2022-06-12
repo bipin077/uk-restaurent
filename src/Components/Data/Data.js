@@ -1,15 +1,15 @@
 export const hmsmallImages=[{
-    image:'/images/image1.webp',
+    image:'../../../../public/images/image1.webp',
     title:'Order Online',
     subtitle:'Stay home and order to your doorstep'
 },
 {
-    image:'/images/image2.webp',
+    image:'../../../../public/images/image2.webp',
     title:'Dining Out',
     subtitle:'View the city favourite dining venues'
 },
 {
-    image:'/images/image3.webp',
+    image:'../../../../public/images/image3.webp',
     title:'Nightlife Clubs',
     subtitle:'Explore the citys top nightlife outlets'
 }];
