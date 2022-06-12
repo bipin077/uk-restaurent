@@ -1,0 +1,273 @@
+.banner{
+    background: url("../../../../public/images/download.webp");
+    /* object-fit: cover; */
+    width: 100%;
+    height: 400px;
+}
+
+.banner h1,.banner p,.banner button{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color:#fff;
+}
+
+.banner h1{
+    font-size: 50px;
+}
+
+.banner p{
+    font-size: 24px;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+.banner button{
+    font-size: 24px;
+    margin-top: 130px;
+    margin-left: 190px;
+    color: rgb(226, 217, 217);
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: rgb(196, 42, 42);
+    animation: btnAnimation 3s infinite ease-in-out;
+}
+
+.banner button:hover{
+    background: #552ab9;
+    color: #fff;
+}
+
+@keyframes btnAnimation {
+
+    0%{
+        background-color: rgb(196, 42, 42);
+    }
+    50%{
+        background-color: rgb(40, 194, 65);
+    }
+    100%{
+        background: #552ab9;
+    }
+}
+
+.small-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top:20px;
+    padding-left:10px;
+    text-align: center;
+}
+
+.small-images h2{
+    color: rgb(40, 194, 65);
+}
+
+
+.small-images p{
+    font-weight: 600;
+}
+
+
+.about-us{
+    margin:30px 10px;
+    text-align: center;
+}
+
+.about-us h2{
+    color:#552ab9;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.about-us p{
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+.about-us .about-btn{
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color:rgb(40, 194, 65);
+    color: #fff;
+    margin-top: 15px;
+}
+
+.about-us .about-btn:hover{
+    background-color:rgb(196, 42, 42);
+}
+
+.testimonials{
+    text-align: center; 
+    margin-top:20px;
+    padding: 30px;
+    background: url("../../../../public/images/coffee.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.testimonials h2{
+    color:#552ab9;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.testimonial{
+    padding: 50px;
+    text-align: center;
+    position: absolute ;
+    width: 300px;
+}
+
+.content-left{
+    max-width: 700px;
+}
+
+.testimonial .testimonial-desc p{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+}
+
+.testimonial .testimonial-desc p::before{
+    content: ' " ';
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(196, 42, 42);
+}
+
+.testimonial .testimonial-desc p::after {
+    content: ' " ';
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(196, 42, 42);
+}
+
+.testimonial  .testimonial-user h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.testimonial  .testimonial-user h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1024px){
+    .banner h1 {
+        font-size: 50px;
+        margin-left: -90px;
+    }
+    .banner p {
+        margin-left: 60px;
+    }
+
+    .banner button {
+        font-size: 24px;
+        margin-top: 130px;
+        margin-left: 127px;
+        padding: 5px 15px;
+        border-radius: 3px;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .banner {
+        height: 280px;
+    }
+    .banner h1 {
+        font-size: 40px;
+        margin-left: -70px;
+    }
+    .banner p {
+        margin-left: 13px;
+        margin-top: 54px;
+    }
+    .banner button {
+        margin-left: 77px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    .banner {
+        height: 210px;
+    }
+    .banner h1 {
+        font-size: 28px;
+        margin-left: -85px;
+    }
+    .banner p {
+        margin-left: -49px;
+        margin-top: 44px;
+        font-size: 19px;
+    }
+    .banner button {
+        margin-left: 8px;
+        margin-top: 88px;
+        font-size: 16px;
+        border-radius: 3px;
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    .banner h1 {
+        font-size: 28px;
+        margin-left: -93px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .banner {
+        height: 197px;
+    }
+    .banner h1 {
+        font-size: 23px;
+        margin-left: -78px;
+    }
+    .banner p {
+        margin-left: -49px;
+        margin-top: 39px;
+        font-size: 16px;
+    }
+    .banner button {
+        margin-left: -7px;
+        margin-top: 74px;
+        font-size: 16px;
+        border-radius: 3px;
+    }
+}
